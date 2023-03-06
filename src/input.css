@@ -1,0 +1,36 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply rounded-full py-3 px-14 cursor-pointer tracking-wider border-2 border-transparent bg-gradient-to-tr from-cyan to-blue hover:bg-gradient-to-tr hover:from-main   hover:to-main hover:border-cyan transition ease-out duration-500;
+}
+
+.btn-2 {
+  @apply rounded-full py-3 px-14 cursor-pointer tracking-wider border-2 border-transparent;
+}
+.btn-3 {
+  @apply rounded-full py-3 px-14 cursor-pointer tracking-wider border-2 border-transparent bg-gradient-to-tr from-cyan to-blue hover:bg-gradient-to-tr hover:bg-cyan hover:text-white hover:border-cyan;
+}
+
+.header-p {
+  @apply font-bold text-xl text-center;
+}
+
+.hov-scale {
+  @apply transition ease-in-out duration-500 transform hover:scale-110  hover:cursor-pointer;
+}
+
+.hov-socials {
+  @apply transition ease-out duration-300 transform hover:scale-110 hover:cursor-pointer hover:bg-footer hover:text-cyan;
+}
+
+.hov-links {
+  @apply transition ease-out duration-300 hover:cursor-pointer hover:text-cyan;
+}
+
+.cards-hover {
+  @apply hover:bg-intro rounded-xl p-5 hover:cursor-pointer transition ease-out duration-500 hover:shadow-2xl shadow-intro;
+}
