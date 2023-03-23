@@ -32,6 +32,10 @@
 }
 
 .hov-socials {
+  @apply hover:font-bold hover:cursor-pointer transition ease-in-out duration-100 transform hover:text-white;
+}
+
+.hov-socials1 {
   @apply hover:font-bold hover:cursor-pointer transition ease-in-out duration-100 transform hover:text-cyan;
 }
 
