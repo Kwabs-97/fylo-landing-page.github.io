@@ -1140,7 +1140,7 @@ video {
   cursor: pointer;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(101 226 217 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hov-links {
