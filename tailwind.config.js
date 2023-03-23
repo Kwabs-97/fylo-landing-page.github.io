@@ -11,6 +11,12 @@ module.exports = {
         Raleway: ["Raleway"],
         Sans: ["Sans"],
       },
+      height: {
+        "50vh": "50vh",
+      },
+      width: {
+        "50vh": "50vh",
+      },
       colors: {
         intro: "#1C2431",
         main: "#181F2A",
